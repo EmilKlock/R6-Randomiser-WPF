@@ -125,6 +125,10 @@ namespace r6randomiser
                 //Setting lbElimination.Foreground to the hex value of #AAAAAA
                 lbElimination.Foreground = new SolidColorBrush(Color.FromArgb(255, 170, 170, 170));
                 lbElimination.FontWeight = FontWeights.Thin;
+                attackersElimination.Clear();
+                attackersElimination.AddRange(attackers);
+                defendersElimination.Clear();
+                defendersElimination.AddRange(defenders);
             }
             else
             {
