@@ -38,6 +38,8 @@ namespace r6randomiser
         //Empty elimination list of attackers
         List<String> attackersElimination = new List<String>();
 
+        List<String> eliminationMemory = new List<String>();
+
         bool Elimination = false;
         bool Attacker = true;
 
@@ -59,7 +61,11 @@ namespace r6randomiser
             Random random = new Random();
             int index = random.Next(defendersElimination.Count);
             String defender = defendersElimination[index];
-            if (Elimination) { defendersElimination.Remove(defender); }
+            if (Elimination) { 
+                defendersElimination.Remove(defender); 
+                eliminationMemory.Add(defender);
+                if (eliminationMemory.Count > 5) { eliminationMemory.RemoveAt(0); }
+            }
 
             //Display the defender in the text box
             lbOperatorName.Content = defender;
@@ -75,22 +81,18 @@ namespace r6randomiser
             Random random = new Random();
             int index = random.Next(attackersElimination.Count);
             String attacker = attackersElimination[index];
-            if (Elimination) { attackersElimination.Remove(attacker); }
+            if (Elimination) { 
+                attackersElimination.Remove(attacker);
+                eliminationMemory.Add(attacker);
+                if (eliminationMemory.Count > 5) { eliminationMemory.RemoveAt(0); }
+                lbUndo.Content = "Undo: " + eliminationMemory.Count();
+
+            }
 
             //Display the attacker in the text box
             lbOperatorName.Content = attacker;
 
             imgOperator.Source = (DrawingImage)FindResource(attacker.ToLower() + "DrawingImage");
-        }
-
-
-        private void btnRandom_Click(object sender, RoutedEventArgs e)
-        {
-            //Elimination = btnRandom.IsChecked.Value;
-            attackersElimination.Clear();
-            attackersElimination.AddRange(attackers);
-            defendersElimination.Clear();
-            defendersElimination.AddRange(defenders);
         }
 
 
@@ -161,6 +163,26 @@ namespace r6randomiser
         {
             //minimise the window
             this.WindowState = WindowState.Minimized;
+        }
+
+        private void lbUndo_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (eliminationMemory.Count > 0)
+            {
+                if (attackers.Contains(eliminationMemory[eliminationMemory.Count - 1]))
+                {
+                    attackersElimination.Add(eliminationMemory[eliminationMemory.Count - 1]);
+                    eliminationMemory.RemoveAt(eliminationMemory.Count - 1);
+                    lbAttackerCount.Content = "A: " + attackersElimination.Count;
+                }
+                else
+                {
+                    defendersElimination.Add(eliminationMemory[eliminationMemory.Count - 1]);
+                    eliminationMemory.RemoveAt(eliminationMemory.Count - 1);
+                    lbDefenderCount.Content = "D: " + defendersElimination.Count;
+                }
+                lbUndo.Content = "Undo: " + eliminationMemory.Count();
+            }
         }
     }
 }
