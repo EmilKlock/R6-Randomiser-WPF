@@ -184,5 +184,18 @@ namespace r6randomiser
                 lbUndo.Content = "Undo: " + eliminationMemory.Count();
             }
         }
+
+        private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            double aspectRatio = 2.0 / 3.0; // set your desired aspect ratio here
+            if (e.WidthChanged)
+            {
+                this.Height = e.NewSize.Width / aspectRatio;
+            }
+            else
+            {
+                this.Width = e.NewSize.Height * aspectRatio;
+            }
+        }
     }
 }
