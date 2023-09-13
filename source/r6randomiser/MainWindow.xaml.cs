@@ -197,5 +197,10 @@ namespace r6randomiser
                 this.Width = e.NewSize.Height * aspectRatio;
             }
         }
+
+        private void lbClose_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
