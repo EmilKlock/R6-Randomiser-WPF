@@ -29,7 +29,7 @@ namespace r6randomiser
         //String List of all attackers in Rainbow Six Siege
         List<String> attackers = new List<String>()
         {
-                "Ace", "Amaru", "Ash", "Blackbeard", "Blitz", "Brava", "Buck", "Capitao", "Dokkaebi", "Finka", "Flores", "Fuze", "Glaz", "Gridlock", "Grim", "Hibana", "Iana", "IQ", "Jackal", "Kali", "Lion", "Maverick", "Montagne", "Nokk", "Nomad", "Osa", "Sens", "Sledge", "Thatcher", "Thermite", "Twitch", "Ying", "Zero", "Zofia"
+                "Ace", "Amaru", "Ash", "Blackbeard", "Blitz", "Brava", "Buck", "Capitao", "Dokkaebi", "Finka", "Flores", "Fuze", "Glaz", "Gridlock", "Grim", "Hibana", "Iana", "IQ", "Jackal", "Kali", "Lion", "Maverick", "Montagne", "Nokk", "Nomad", "Osa", "Sens", "Sledge", "Thatcher", "Thermite", "Twitch", "Ying", "Zero", "Zofia", "Ram"
             };
 
         //Empty elimination list of defenders
