@@ -1,0 +1,162 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Geometry x:Key="fullscreen_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M95,-95L95,-333 189,-333 189,-189 333,-189 333,-95 95,-95z M628,-95L628,-189 771,-189 771,-333 866,-333 866,-95 628,-95z M95,-628L95,-866 333,-866 333,-771 189,-771 189,-628 95,-628z M771,-628L771,-771 628,-771 628,-866 866,-866 866,-628 771,-628z</Geometry>
+  <DrawingGroup x:Key="fullscreen_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource fullscreen_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="fullscreen_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource fullscreen_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="volume_up_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M580,-118L580,-193.204Q676,-222 738,-301 800,-380 800,-481 800,-582 738.5,-661.5 677,-741 580,-768.796L580,-844Q708.229,-815.251 789.614,-713.626 871,-612 871,-481 871,-350 789.614,-248.374 708.229,-146.749 580,-118z M89,-335L89,-626 264,-626 500,-861 500,-99 264,-335 89,-335z M560,-303L560,-658Q618,-638 654.5,-589.922 691,-541.843 691,-479.932 691,-419 654,-370.5 617,-322 560,-303z</Geometry>
+  <DrawingGroup x:Key="volume_up_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource volume_up_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="volume_up_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource volume_up_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="minimize_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M223,-95L223,-189 738,-189 738,-95 223,-95z</Geometry>
+  <DrawingGroup x:Key="minimize_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource minimize_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="minimize_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource minimize_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="close_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M249,-183L183,-249 414,-480 183,-711 249,-777 480,-546 711,-777 777,-711 546,-480 777,-249 711,-183 480,-414 249,-183z</Geometry>
+  <DrawingGroup x:Key="close_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource close_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="close_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource close_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="stop_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M215,-215L215,-746 746,-746 746,-215 215,-215z</Geometry>
+  <DrawingGroup x:Key="stop_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource stop_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="stop_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource stop_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="folder_open_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M149,-135Q110.95,-135 82.975,-162.975 55,-190.95 55,-229L55,-731Q55,-770.463 82.975,-798.231 110.95,-826 149,-826L410,-826 481,-754 811,-754Q850.463,-754 878.231,-726.025 906,-698.05 906,-660L149,-660 149,-225 248,-600 960,-600 861,-226Q846,-176 816.5,-155.5 787,-135 735,-135L149,-135z</Geometry>
+  <DrawingGroup x:Key="folder_open_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource folder_open_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="folder_open_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource folder_open_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="screenshot_monitor_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M557,-329L751,-329 751,-524 677,-524 677,-404 557,-404 557,-329z M209,-517L284,-517 284,-637 404,-637 404,-711 209,-711 209,-517z M317,-95L317,-175 149,-175Q109.95,-175 82.475,-202.475 55,-229.95 55,-269L55,-771Q55,-810.463 82.475,-838.231 109.95,-866 149,-866L811,-866Q850.463,-866 878.231,-838.231 906,-810.463 906,-771L906,-269Q906,-229.95 878.231,-202.475 850.463,-175 811,-175L644,-175 644,-95 317,-95z</Geometry>
+  <DrawingGroup x:Key="screenshot_monitor_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource screenshot_monitor_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="screenshot_monitor_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource screenshot_monitor_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="drive_folder_upload_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M149,-135Q109.95,-135 82.475,-162.975 55,-190.95 55,-229L55,-731Q55,-769.463 82.475,-797.731 109.95,-826 149,-826L410,-826 481,-754 811,-754Q849.463,-754 877.731,-726.025 906,-698.05 906,-660L906,-229Q906,-190.95 877.731,-162.975 849.463,-135 811,-135L149,-135z M440,-276L520,-276 520,-455 571,-404 627,-459 480,-606 333,-459 389,-404 440,-455 440,-276z</Geometry>
+  <DrawingGroup x:Key="drive_folder_upload_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource drive_folder_upload_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="drive_folder_upload_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource drive_folder_upload_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="toggle_on_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M280,-217Q170.417,-217 93.708,-293.794 17,-370.588 17,-480.294 17,-590 93.708,-666.5 170.417,-743 280,-743L680,-743Q789.583,-743 866.292,-666.206 943,-589.412 943,-479.706 943,-370 866.292,-293.5 789.583,-217 680,-217L280,-217z M680.941,-379Q723,-379 752.5,-408.441 782,-437.882 782,-479.941 782,-522 752.559,-551.5 723.118,-581 681.059,-581 639,-581 609.5,-551.559 580,-522.118 580,-480.059 580,-438 609.441,-408.5 638.882,-379 680.941,-379z</Geometry>
+  <DrawingGroup x:Key="toggle_on_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource toggle_on_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="toggle_on_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource toggle_on_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="avg_pace_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M609.859,-753Q586.52,-753 569.76,-769.901 553,-786.802 553,-810.141 553,-833.48 569.901,-850.24 586.802,-867 610.141,-867 633.48,-867 650.24,-850.099 667,-833.198 667,-809.859 667,-786.52 650.099,-769.76 633.198,-753 609.859,-753z M609.859,-93Q586.52,-93 569.76,-109.901 553,-126.802 553,-150.141 553,-173.48 569.901,-190.24 586.802,-207 610.141,-207 633.48,-207 650.24,-190.099 667,-173.198 667,-149.859 667,-126.52 650.099,-109.76 633.198,-93 609.859,-93z M769.859,-613Q746.52,-613 729.76,-629.901 713,-646.802 713,-670.141 713,-693.48 729.901,-710.24 746.802,-727 770.141,-727 793.48,-727 810.24,-710.099 827,-693.198 827,-669.859 827,-646.52 810.099,-629.76 793.198,-613 769.859,-613z M769.859,-233Q746.52,-233 729.76,-249.901 713,-266.802 713,-290.141 713,-313.48 729.901,-330.24 746.802,-347 770.141,-347 793.48,-347 810.24,-330.099 827,-313.198 827,-289.859 827,-266.52 810.099,-249.76 793.198,-233 769.859,-233z M829.859,-423Q806.52,-423 789.76,-439.901 773,-456.802 773,-480.141 773,-503.48 789.901,-520.24 806.802,-537 830.141,-537 853.48,-537 870.24,-520.099 887,-503.198 887,-479.859 887,-456.52 870.099,-439.76 853.198,-423 829.859,-423z M480,-65Q393.85,-65 318.121,-97.684 242.392,-130.367 186.374,-186.397 130.355,-242.426 97.677,-318.169 65,-393.912 65,-480.031 65,-566.15 97.681,-641.879 130.363,-717.608 186.388,-773.626 242.413,-829.645 318.15,-862.322 393.888,-895 480,-895L480,-801Q347,-801 253.5,-707.139 160,-613.278 160,-479.952 160,-346.625 253.556,-253.312 347.112,-160 480,-160L480,-65z M479.911,-393Q443.475,-393 418.237,-418.3 393,-443.6 393,-480 393,-484.345 393.667,-489.125 394.333,-493.905 395,-497.83L309,-584 376,-650 462.724,-565Q468,-567 480,-567 516.4,-567 541.7,-541.674 567,-516.348 567,-479.911 567,-443.475 541.674,-418.237 516.348,-393 479.911,-393z</Geometry>
+  <DrawingGroup x:Key="avg_pace_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource avg_pace_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="avg_pace_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource avg_pace_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="volume_off_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M821,-32L687,-167Q662,-150 633,-137.5 604,-125 572,-118L572,-193Q588,-198 604.5,-204 621,-210 635,-221L492,-367 492,-99 257,-335 82,-335 82,-626 239,-626 24,-846 74,-896 872,-84 821,-32z M804,-280L753,-333Q773,-366 782.5,-403.5 792,-441 792,-481 792,-584 731,-665 670,-746 572,-769L572,-844Q700,-815 782,-713.5 864,-612 864,-481 864,-427 848.5,-376 833,-325 804,-280z M671,-415L572,-516 572,-651Q622,-627 653,-581 684,-535 684,-480 684,-463 680.5,-446.5 677,-430 671,-415z M492,-598L362,-731 492,-861 492,-598z</Geometry>
+  <DrawingGroup x:Key="volume_off_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource volume_off_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="volume_off_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource volume_off_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="play_arrow_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M295,-157L295,-809 807,-483 295,-157z</Geometry>
+  <DrawingGroup x:Key="play_arrow_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource play_arrow_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="play_arrow_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource play_arrow_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="skip_previous_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M173,-193L173,-767 267,-767 267,-193 173,-193z M787,-193L370,-480 787,-767 787,-193z</Geometry>
+  <DrawingGroup x:Key="skip_previous_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource skip_previous_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="skip_previous_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource skip_previous_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="skip_next_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M693,-193L693,-767 787,-767 787,-193 693,-193z M173,-193L173,-767 590,-480 173,-193z</Geometry>
+  <DrawingGroup x:Key="skip_next_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource skip_next_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="skip_next_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource skip_next_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="wallpaper_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M189,-95Q149.95,-95 122.475,-122.475 95,-149.95 95,-189L95,-439 189,-439 189,-189 439,-189 439,-95 189,-95z M521,-95L521,-189 771,-189 771,-439 866,-439 866,-189Q866,-149.95 838.231,-122.475 810.463,-95 771,-95L521,-95z M224,-268L355,-444 448,-317 580,-488 740,-268 224,-268z M95,-521L95,-771Q95,-810.463 122.475,-838.231 149.95,-866 189,-866L439,-866 439,-771 189,-771 189,-521 95,-521z M771,-521L771,-771 521,-771 521,-866 771,-866Q810.463,-866 838.231,-838.231 866,-810.463 866,-771L866,-521 771,-521z M624,-570Q600.6,-570 585.3,-585.3 570,-600.6 570,-624 570,-647.4 585.3,-662.7 600.6,-678 624,-678 647.4,-678 662.7,-662.7 678,-647.4 678,-624 678,-600.6 662.7,-585.3 647.4,-570 624,-570z</Geometry>
+  <DrawingGroup x:Key="wallpaper_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource wallpaper_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="wallpaper_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource wallpaper_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="send_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M97,-136L97,-384 433,-480 97,-578 97,-824 910,-480 97,-136z</Geometry>
+  <DrawingGroup x:Key="send_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource send_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="send_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource send_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="schedule_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M616,-283L678,-343 524,-498.229 524,-689 442,-689 442,-464.443 616,-283z M480.138,-55Q392,-55 314.625,-88.366 237.249,-121.732 179.513,-179.432 121.776,-237.131 88.388,-314.456 55,-391.781 55,-479.89 55,-568 88.584,-645.487 122.167,-722.975 179.596,-780.404 237.025,-837.833 314.419,-871.916 391.812,-906 480,-906 568.188,-906 645.581,-871.916 722.975,-837.833 780.404,-780.404 837.833,-722.975 871.916,-645.581 906,-568.188 906,-480 906,-391.812 871.916,-314.419 837.833,-237.025 780.404,-179.596 722.975,-122.167 645.625,-88.584 568.276,-55 480.138,-55z</Geometry>
+  <DrawingGroup x:Key="schedule_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource schedule_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="schedule_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource schedule_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="pause_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M543,-154L543,-806 787,-806 787,-154 543,-154z M173,-154L173,-806 417,-806 417,-154 173,-154z</Geometry>
+  <DrawingGroup x:Key="pause_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource pause_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="pause_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource pause_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="fullscreen_exit_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M238,-95L238,-238 95,-238 95,-333 333,-333 333,-95 238,-95z M628,-95L628,-333 866,-333 866,-238 723,-238 723,-95 628,-95z M95,-628L95,-723 238,-723 238,-866 333,-866 333,-628 95,-628z M628,-628L628,-866 723,-866 723,-723 866,-723 866,-628 628,-628z</Geometry>
+  <DrawingGroup x:Key="fullscreen_exit_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource fullscreen_exit_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="fullscreen_exit_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource fullscreen_exit_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+  <Geometry x:Key="toggle_off_FILL1_wght700_GRAD0_opsz48Geometry">F1 M960,960z M0,0z M280,-217Q170.417,-217 93.708,-293.794 17,-370.588 17,-480.294 17,-590 93.708,-666.5 170.417,-743 280,-743L680,-743Q789.583,-743 866.292,-666.206 943,-589.412 943,-479.706 943,-370 866.292,-293.5 789.583,-217 680,-217L280,-217z M278.941,-379Q321,-379 350.5,-408.441 380,-437.882 380,-479.941 380,-522 350.559,-551.5 321.118,-581 279.059,-581 237,-581 207.5,-551.559 178,-522.118 178,-480.059 178,-438 207.441,-408.5 236.882,-379 278.941,-379z</Geometry>
+  <DrawingGroup x:Key="toggle_off_FILL1_wght700_GRAD0_opsz48DrawingGroup" ClipGeometry="M0,-960 V0 H960 V0 H-960 Z">
+    <DrawingGroup.Transform>
+      <TranslateTransform X="0" Y="960" />
+    </DrawingGroup.Transform>
+    <GeometryDrawing Brush="#FF000000" Geometry="{StaticResource toggle_off_FILL1_wght700_GRAD0_opsz48Geometry}" />
+  </DrawingGroup>
+  <DrawingImage x:Key="toggle_off_FILL1_wght700_GRAD0_opsz48DrawingImage" Drawing="{StaticResource toggle_off_FILL1_wght700_GRAD0_opsz48DrawingGroup}" />
+</ResourceDictionary>

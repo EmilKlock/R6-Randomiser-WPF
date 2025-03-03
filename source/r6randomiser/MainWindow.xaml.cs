@@ -53,6 +53,8 @@ namespace r6randomiser
             lbAttackerCount.Content = "A: " + attackersElimination.Count;
             lbDefenderCount.Content = "D: " + defendersElimination.Count;
 
+            githubCheck();
+
         }
         public void RandomiseDefender()
         {
@@ -201,6 +203,27 @@ namespace r6randomiser
         private void lbClose_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             this.Close();
+        }
+
+        //Check for new github release
+        private void githubCheck()
+        {
+            //https://api.github.com/repos/EmilKlock/r6randomiser/releases/latest
+            //string gitrepo = "https://api.github.com/repos/EmilKlock/R6-Randomiser-WPF/releases/latest";
+            //get the latest release from github
+            //string latestRelease = new System.Net.WebClient().DownloadString(gitrepo);
+            //get the version number from the latest release
+            //string latestVersion = latestRelease.Substring(latestRelease.IndexOf("tag_name") + 11, 5);
+            //get the version number from the current release
+            //string currentVersion = "v1.0.2";
+            //compare the two version numbers
+            //if (latestVersion != currentVersion)
+            //{
+            //    //if the latest version is newer than the current version, display a message box
+            //    MessageBox.Show("There is a new version of R6 Randomiser available. \n\nCurrent Version: " + currentVersion + "\nLatest Version: " + latestVersion + "\n\nPlease download the latest version from: https://github.com/EmilKlock/R6-Randomiser-WPF/releases/latest");
+            //}
+
+
         }
     }
 }
