@@ -21,12 +21,18 @@ namespace r6randomiser
     public partial class MainWindow : Window
     {
         //String List of all defenders in Rainbow Six Siege
+        /// <summary>
+        /// List of all defenders in Rainbow Six Siege  
+        /// </summary>
         List<String> defenders = new List<String>()
         {
                 "Alibi", "Aruni", "Azami",  "Bandit", "Castle", "Caveira", "Clash", "Doc", "Echo", "Ela", "Fenrir", "Frost", "Goyo", "Jager", "Kaid", "Kapkan", "Lesion", "Maestro", "Melusi", "Mira", "Mozzie", "Mute", "Oryx", "Pulse", "Rook", "Smoke", "Solis", "Tachanka", "Thorn", "Thunderbird", "Valkyrie", "Vigil", "Wamai", "Warden"
             };
 
         //String List of all attackers in Rainbow Six Siege
+        /// <summary>
+        /// List of all attackers in Rainbow Six Siege
+        /// </summary>
         List<String> attackers = new List<String>()
         {
                 "Ace", "Amaru", "Ash", "Blackbeard", "Blitz", "Brava", "Buck", "Capitao", "Dokkaebi", "Finka", "Flores", "Fuze", "Glaz", "Gridlock", "Grim", "Hibana", "Iana", "IQ", "Jackal", "Kali", "Lion", "Maverick", "Montagne", "Nokk", "Nomad", "Osa", "Sens", "Sledge", "Thatcher", "Thermite", "Twitch", "Ying", "Zero", "Zofia", "Ram"
@@ -43,6 +49,9 @@ namespace r6randomiser
         bool Elimination = false;
         bool Attacker = true;
 
+        /// <summary>
+        /// Main Window Constructor
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
@@ -56,6 +65,10 @@ namespace r6randomiser
             githubCheck();
 
         }
+
+        /// <summary>
+        /// RandomiseDefender Method
+        /// </summary>
         public void RandomiseDefender()
         {
             //Randomly select a defender from the list
@@ -76,6 +89,9 @@ namespace r6randomiser
             imgOperator.Source = (DrawingImage)FindResource(defender.ToLower()+"DrawingImage");
         }
 
+        /// <summary>
+        /// RandomiseAttacker Method
+        /// </summary>
         public void RandomiseAttacker()
         {
             //Randomly select an attacker from the list
@@ -98,6 +114,11 @@ namespace r6randomiser
         }
 
 
+        /// <summary>
+        /// Label_MouseDown Method
+        /// </summary>
+        /// <param name="sender">Sender</param>
+        /// <param name="e">Mouse button Event</param>
         private void Label_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.ChangedButton == MouseButton.Left)
@@ -105,6 +126,11 @@ namespace r6randomiser
 
         }
 
+        /// <summary>
+        /// lbNextOperator_MouseLeftButtonDown Method
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e">Mouse button event</param>
         private void lbNextOperator_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             if (Attacker)
@@ -120,6 +146,11 @@ namespace r6randomiser
             lbDefenderCount.Content = "D: " + defendersElimination.Count;
         }
 
+        /// <summary>
+        /// lbElimination_MouseLeftButtonDown Method
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e">Mouse button event</param>
         private void lbElimination_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             if(Elimination)
